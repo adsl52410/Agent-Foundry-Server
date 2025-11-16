@@ -17,3 +17,6 @@ services:
 networks:
   webnet:
     driver: bridge
+    ipam:
+      config:
+        - subnet: 10.20.0.0/16
